@@ -1,0 +1,30 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "",
+      "styles": "styles",
+      "mbtiles": ""
+    },
+    "serveStaticMaps": true,
+    "formatQuality": {
+      "jpeg": 90,
+      "webp": 90
+    },
+    "maxSize": 8192,
+    "pbfAlias": "pbf"
+  },
+  "styles": {
+    "custom-style": {
+      "style": "custom-style.json",
+      "tilejson": {
+        "bounds": [-34.49296, 29.735139, 46.75348, 81.47299]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "osm-2020-02-10-v3.11_europe.mbtiles"
+    }
+  }
+}

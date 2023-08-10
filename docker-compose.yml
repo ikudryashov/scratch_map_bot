@@ -1,0 +1,29 @@
+﻿networks:
+  custom_network:
+
+services:
+      tileserver:
+        build:
+          context: .
+          dockerfile: tileserver/Dockerfile
+        container_name: scratchmap_app_tileserver
+        ports:
+          - "8080:8080"
+        volumes:
+          - ./tileserver:/data
+        networks:
+          - custom_network
+        
+      scratchmapapp.telegrambot:
+        image: scratchmapapp.telegrambot
+        build:
+          context: .
+          dockerfile: src/ScratchMapApp.TelegramBot/Dockerfile
+        container_name: scratchmap_app
+        volumes:
+          - ./tileserver:/data
+          - /var/run/docker.sock:/var/run/docker.sock
+        environment:
+          - TELEGRAM_BOT_TOKEN=YOUR_TOKEN_HERE
+        networks:
+          - custom_network

@@ -1,0 +1,12 @@
+{
+  "WelcomeMessage": "\uD83D\uDC4B *Welcome to Scratch Map Bot\\!*\n\n\uD83D\uDDFA\uFE0F It generates an image of map that has all the countries you've been to highlighted\\!\n\n\uD83D\uDCCB To have your scratch map generated, list the countries you've visited like so:\n\n*\"France, Italy, Germany \\.\\.\\.\"*\n\n\uD83D\uDE1E Only countries of *Europe* are supported as of right now, unfortunately\n\n\uD83D\uDD0E Use */info* to learn more about this bot",
+  "InvalidInputMessage": "\uD83D\uDEAB Please provide a list of countries in the following format:\n\n*\"Germany, France, Italy \\.\\.\\.\"*\n\nMake sure the country names are separated by *exactly one comma and a space*",
+  "UnknownCommandMessage": "\uD83E\uDD37\u200D♂\uFE0F Unknown command",
+  "NoValidInputsMessage": "\uD83D\uDEAB Please select *at least 1* country",
+  "SelectedCountriesListHeader": "Selected countries:",
+  "UnrecognizedInputsListHeader": "\n\n\uD83D\uDEAB These inputs are not valid country names or are not yet supported:",
+  "InfoMessage": "This bot was developed as a programming practice project\\.\n\nSource code: *[GitHub](https://github\\.com)*",
+  "ScratchmapGenerationMessage": "Generating your scratch map\\.\\.\\.",
+  "ScratchmapCreatedMessage": "Here's your scratch map\\!",
+  "ScratchmapGenerationErrorMessage": "An error occured when generating your scratch map\\. Please try again later\\."
+}
