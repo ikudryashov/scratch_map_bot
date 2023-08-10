@@ -5,7 +5,7 @@
   "NoValidInputsMessage": "\uD83D\uDEAB Please select *at least 1* country",
   "SelectedCountriesListHeader": "Selected countries:",
   "UnrecognizedInputsListHeader": "\n\n\uD83D\uDEAB These inputs are not valid country names or are not yet supported:",
-  "InfoMessage": "This bot was developed as a programming practice project\\.\n\nSource code: *[GitHub](https://github\\.com)*",
+  "InfoMessage": "This bot was developed as a programming practice project\\.\n\nSource code: *[GitHub](https://github\\.com/ikudryashov/scratch\\_map\\_bot)*\nMap tiles provided by *MapTiler* for non\\-commercial personal projects",
   "ScratchmapGenerationMessage": "Generating your scratch map\\.\\.\\.",
   "ScratchmapCreatedMessage": "Here's your scratch map\\!",
   "ScratchmapGenerationErrorMessage": "An error occured when generating your scratch map\\. Please try again later\\."
