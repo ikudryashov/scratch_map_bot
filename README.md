@@ -1,5 +1,5 @@
 # SCRATCH MAP TELEGRAM BOT
-### Video Demo: [Vimeo]("https://vimeo.com/853356846")
+### Video Demo: https://vimeo.com/853356846
 ### Description:
 This app is my Harvard's CS50 final project. It is a Telegram bot written in C# that generates an image of a map and highlights
 the countries the user selected. It essentially creates a scratch map of the countries the user visited. The challenge
